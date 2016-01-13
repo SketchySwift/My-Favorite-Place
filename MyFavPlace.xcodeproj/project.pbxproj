@@ -1,0 +1,392 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		150A16B41BFFAACC0022DE71 /* Website.swift in Sources */ = {isa = PBXBuildFile; fileRef = 150A16B31BFFAACC0022DE71 /* Website.swift */; };
+		157D369A1BF676E80010AA4B /* DetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 157D36991BF676E80010AA4B /* DetailsViewController.swift */; };
+		157D369E1BF68AB50010AA4B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 157D369D1BF68AB50010AA4B /* Assets.xcassets */; };
+		157D36A21BF68E620010AA4B /* PhotosViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 157D36A11BF68E620010AA4B /* PhotosViewController.swift */; };
+		157D36B11BF68F230010AA4B /* Compass.png in Resources */ = {isa = PBXBuildFile; fileRef = 157D36A71BF68F230010AA4B /* Compass.png */; };
+		15898B651BF564F0004597C6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15898B641BF564F0004597C6 /* AppDelegate.swift */; };
+		15898B671BF564F0004597C6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15898B661BF564F0004597C6 /* ViewController.swift */; };
+		15898B6A1BF564F0004597C6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 15898B681BF564F0004597C6 /* Main.storyboard */; };
+		15DDC5F11C45E50300032BF0 /* Population icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 15DDC5F01C45E50300032BF0 /* Population icon.png */; };
+		15DDC5F31C45E76C00032BF0 /* Poplulation icon 2.png in Resources */ = {isa = PBXBuildFile; fileRef = 15DDC5F21C45E76C00032BF0 /* Poplulation icon 2.png */; };
+		15DDC5F51C45E8BD00032BF0 /* History.png in Resources */ = {isa = PBXBuildFile; fileRef = 15DDC5F41C45E8BD00032BF0 /* History.png */; };
+		15DDC5FA1C45EC1600032BF0 /* PP.png in Resources */ = {isa = PBXBuildFile; fileRef = 15DDC5F71C45EC1600032BF0 /* PP.png */; };
+		15DDC5FB1C45EC1600032BF0 /* ThingsToDo.png in Resources */ = {isa = PBXBuildFile; fileRef = 15DDC5F81C45EC1600032BF0 /* ThingsToDo.png */; };
+		15DDC5FD1C45ECA300032BF0 /* Back.png in Resources */ = {isa = PBXBuildFile; fileRef = 15DDC5FC1C45ECA300032BF0 /* Back.png */; };
+		15DDC5FF1C45EFCA00032BF0 /* Line.png in Resources */ = {isa = PBXBuildFile; fileRef = 15DDC5FE1C45EFCA00032BF0 /* Line.png */; };
+		15DDC6031C45F13C00032BF0 /* Description ICON.png in Resources */ = {isa = PBXBuildFile; fileRef = 15DDC6021C45F13C00032BF0 /* Description ICON.png */; };
+		15DDC6051C45F42D00032BF0 /* BG.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 15DDC6041C45F42D00032BF0 /* BG.jpg */; };
+		15DDC6071C45F52700032BF0 /* Close.png in Resources */ = {isa = PBXBuildFile; fileRef = 15DDC6061C45F52700032BF0 /* Close.png */; };
+		15DDC60A1C45F83300032BF0 /* Cam.png in Resources */ = {isa = PBXBuildFile; fileRef = 15DDC6081C45F83300032BF0 /* Cam.png */; };
+		15DDC60B1C45F83300032BF0 /* Link.png in Resources */ = {isa = PBXBuildFile; fileRef = 15DDC6091C45F83300032BF0 /* Link.png */; };
+		15DDC6131C45FFA800032BF0 /* hotels-near-washington-dc-top.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 15DDC6121C45FFA800032BF0 /* hotels-near-washington-dc-top.jpg */; };
+		15DDC6151C45FFB300032BF0 /* Washington_Monument_Panorama.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 15DDC6141C45FFB300032BF0 /* Washington_Monument_Panorama.jpg */; };
+		15DDC6171C46000C00032BF0 /* White-House.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 15DDC6161C46000C00032BF0 /* White-House.jpg */; };
+		15DDC6191C4600EF00032BF0 /* dc_air_space_museum.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 15DDC6181C4600EF00032BF0 /* dc_air_space_museum.jpg */; };
+		15DDC61B1C46013F00032BF0 /* 2660122229_ct7mn94-M.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 15DDC61A1C46013F00032BF0 /* 2660122229_ct7mn94-M.jpg */; };
+		15DDC61D1C4601F700032BF0 /* United_States_Capitol_-_west_front.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 15DDC61C1C4601F700032BF0 /* United_States_Capitol_-_west_front.jpg */; };
+		15DDC61F1C46BD4C00032BF0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 15DDC61E1C46BD4C00032BF0 /* LaunchScreen.storyboard */; };
+		15DDC6211C46BFCA00032BF0 /* Launch.png in Resources */ = {isa = PBXBuildFile; fileRef = 15DDC6201C46BFCA00032BF0 /* Launch.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		150A16B31BFFAACC0022DE71 /* Website.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Website.swift; sourceTree = "<group>"; };
+		157D36991BF676E80010AA4B /* DetailsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailsViewController.swift; sourceTree = "<group>"; };
+		157D369D1BF68AB50010AA4B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		157D36A11BF68E620010AA4B /* PhotosViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotosViewController.swift; sourceTree = "<group>"; };
+		157D36A71BF68F230010AA4B /* Compass.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Compass.png; path = Assets.xcassets/Compass.imageset/Compass.png; sourceTree = "<group>"; };
+		15898B611BF564F0004597C6 /* MyFavPlace.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyFavPlace.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		15898B641BF564F0004597C6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		15898B661BF564F0004597C6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		15898B691BF564F0004597C6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		15898B701BF564F0004597C6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		15DDC5F01C45E50300032BF0 /* Population icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Population icon.png"; sourceTree = "<group>"; };
+		15DDC5F21C45E76C00032BF0 /* Poplulation icon 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Poplulation icon 2.png"; sourceTree = "<group>"; };
+		15DDC5F41C45E8BD00032BF0 /* History.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = History.png; sourceTree = "<group>"; };
+		15DDC5F71C45EC1600032BF0 /* PP.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = PP.png; sourceTree = "<group>"; };
+		15DDC5F81C45EC1600032BF0 /* ThingsToDo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ThingsToDo.png; sourceTree = "<group>"; };
+		15DDC5FC1C45ECA300032BF0 /* Back.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Back.png; sourceTree = "<group>"; };
+		15DDC5FE1C45EFCA00032BF0 /* Line.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Line.png; sourceTree = "<group>"; };
+		15DDC6021C45F13C00032BF0 /* Description ICON.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Description ICON.png"; sourceTree = "<group>"; };
+		15DDC6041C45F42D00032BF0 /* BG.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = BG.jpg; sourceTree = "<group>"; };
+		15DDC6061C45F52700032BF0 /* Close.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Close.png; sourceTree = "<group>"; };
+		15DDC6081C45F83300032BF0 /* Cam.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Cam.png; sourceTree = "<group>"; };
+		15DDC6091C45F83300032BF0 /* Link.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Link.png; sourceTree = "<group>"; };
+		15DDC6121C45FFA800032BF0 /* hotels-near-washington-dc-top.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "hotels-near-washington-dc-top.jpg"; sourceTree = "<group>"; };
+		15DDC6141C45FFB300032BF0 /* Washington_Monument_Panorama.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Washington_Monument_Panorama.jpg; sourceTree = "<group>"; };
+		15DDC6161C46000C00032BF0 /* White-House.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "White-House.jpg"; sourceTree = "<group>"; };
+		15DDC6181C4600EF00032BF0 /* dc_air_space_museum.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = dc_air_space_museum.jpg; sourceTree = "<group>"; };
+		15DDC61A1C46013F00032BF0 /* 2660122229_ct7mn94-M.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "2660122229_ct7mn94-M.jpg"; sourceTree = "<group>"; };
+		15DDC61C1C4601F700032BF0 /* United_States_Capitol_-_west_front.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "United_States_Capitol_-_west_front.jpg"; sourceTree = "<group>"; };
+		15DDC61E1C46BD4C00032BF0 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		15DDC6201C46BFCA00032BF0 /* Launch.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Launch.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		15898B5E1BF564F0004597C6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		15898B581BF564F0004597C6 = {
+			isa = PBXGroup;
+			children = (
+				15898B631BF564F0004597C6 /* MyFavPlace */,
+				15898B621BF564F0004597C6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		15898B621BF564F0004597C6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				15898B611BF564F0004597C6 /* MyFavPlace.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		15898B631BF564F0004597C6 /* MyFavPlace */ = {
+			isa = PBXGroup;
+			children = (
+				15898B641BF564F0004597C6 /* AppDelegate.swift */,
+				15898B661BF564F0004597C6 /* ViewController.swift */,
+				157D36991BF676E80010AA4B /* DetailsViewController.swift */,
+				157D36A11BF68E620010AA4B /* PhotosViewController.swift */,
+				150A16B31BFFAACC0022DE71 /* Website.swift */,
+				15898B681BF564F0004597C6 /* Main.storyboard */,
+				15DDC61E1C46BD4C00032BF0 /* LaunchScreen.storyboard */,
+				157D369D1BF68AB50010AA4B /* Assets.xcassets */,
+				15DDC60C1C45FE0000032BF0 /* Assets */,
+				15898B701BF564F0004597C6 /* Info.plist */,
+			);
+			path = MyFavPlace;
+			sourceTree = "<group>";
+		};
+		15DDC60C1C45FE0000032BF0 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				15DDC60D1C45FE0700032BF0 /* Main IMG'S */,
+				157D36A71BF68F230010AA4B /* Compass.png */,
+				15DDC5F21C45E76C00032BF0 /* Poplulation icon 2.png */,
+				15DDC5F41C45E8BD00032BF0 /* History.png */,
+				15DDC5F71C45EC1600032BF0 /* PP.png */,
+				15DDC5F81C45EC1600032BF0 /* ThingsToDo.png */,
+				15DDC6041C45F42D00032BF0 /* BG.jpg */,
+				15DDC5F01C45E50300032BF0 /* Population icon.png */,
+				15DDC6021C45F13C00032BF0 /* Description ICON.png */,
+				15DDC6061C45F52700032BF0 /* Close.png */,
+				15DDC5FE1C45EFCA00032BF0 /* Line.png */,
+				15DDC5FC1C45ECA300032BF0 /* Back.png */,
+				15DDC6081C45F83300032BF0 /* Cam.png */,
+				15DDC6091C45F83300032BF0 /* Link.png */,
+			);
+			name = Assets;
+			sourceTree = "<group>";
+		};
+		15DDC60D1C45FE0700032BF0 /* Main IMG'S */ = {
+			isa = PBXGroup;
+			children = (
+				15DDC6201C46BFCA00032BF0 /* Launch.png */,
+				15DDC61C1C4601F700032BF0 /* United_States_Capitol_-_west_front.jpg */,
+				15DDC6161C46000C00032BF0 /* White-House.jpg */,
+				15DDC6141C45FFB300032BF0 /* Washington_Monument_Panorama.jpg */,
+				15DDC61A1C46013F00032BF0 /* 2660122229_ct7mn94-M.jpg */,
+				15DDC6181C4600EF00032BF0 /* dc_air_space_museum.jpg */,
+				15DDC6121C45FFA800032BF0 /* hotels-near-washington-dc-top.jpg */,
+			);
+			name = "Main IMG'S";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		15898B601BF564F0004597C6 /* MyFavPlace */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 15898B731BF564F0004597C6 /* Build configuration list for PBXNativeTarget "MyFavPlace" */;
+			buildPhases = (
+				15898B5D1BF564F0004597C6 /* Sources */,
+				15898B5E1BF564F0004597C6 /* Frameworks */,
+				15898B5F1BF564F0004597C6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MyFavPlace;
+			productName = MyFavPlace;
+			productReference = 15898B611BF564F0004597C6 /* MyFavPlace.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		15898B591BF564F0004597C6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0710;
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = "Hafiz Developer";
+				TargetAttributes = {
+					15898B601BF564F0004597C6 = {
+						CreatedOnToolsVersion = 7.1;
+					};
+				};
+			};
+			buildConfigurationList = 15898B5C1BF564F0004597C6 /* Build configuration list for PBXProject "MyFavPlace" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 15898B581BF564F0004597C6;
+			productRefGroup = 15898B621BF564F0004597C6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				15898B601BF564F0004597C6 /* MyFavPlace */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		15898B5F1BF564F0004597C6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				15DDC6171C46000C00032BF0 /* White-House.jpg in Resources */,
+				15898B6A1BF564F0004597C6 /* Main.storyboard in Resources */,
+				15DDC61B1C46013F00032BF0 /* 2660122229_ct7mn94-M.jpg in Resources */,
+				157D369E1BF68AB50010AA4B /* Assets.xcassets in Resources */,
+				15DDC5F11C45E50300032BF0 /* Population icon.png in Resources */,
+				15DDC61D1C4601F700032BF0 /* United_States_Capitol_-_west_front.jpg in Resources */,
+				15DDC6151C45FFB300032BF0 /* Washington_Monument_Panorama.jpg in Resources */,
+				15DDC6051C45F42D00032BF0 /* BG.jpg in Resources */,
+				15DDC6131C45FFA800032BF0 /* hotels-near-washington-dc-top.jpg in Resources */,
+				15DDC61F1C46BD4C00032BF0 /* LaunchScreen.storyboard in Resources */,
+				15DDC5FB1C45EC1600032BF0 /* ThingsToDo.png in Resources */,
+				15DDC6071C45F52700032BF0 /* Close.png in Resources */,
+				15DDC5F51C45E8BD00032BF0 /* History.png in Resources */,
+				15DDC6211C46BFCA00032BF0 /* Launch.png in Resources */,
+				15DDC60A1C45F83300032BF0 /* Cam.png in Resources */,
+				15DDC5FF1C45EFCA00032BF0 /* Line.png in Resources */,
+				15DDC5FD1C45ECA300032BF0 /* Back.png in Resources */,
+				157D36B11BF68F230010AA4B /* Compass.png in Resources */,
+				15DDC5F31C45E76C00032BF0 /* Poplulation icon 2.png in Resources */,
+				15DDC60B1C45F83300032BF0 /* Link.png in Resources */,
+				15DDC5FA1C45EC1600032BF0 /* PP.png in Resources */,
+				15DDC6191C4600EF00032BF0 /* dc_air_space_museum.jpg in Resources */,
+				15DDC6031C45F13C00032BF0 /* Description ICON.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		15898B5D1BF564F0004597C6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				15898B671BF564F0004597C6 /* ViewController.swift in Sources */,
+				157D36A21BF68E620010AA4B /* PhotosViewController.swift in Sources */,
+				15898B651BF564F0004597C6 /* AppDelegate.swift in Sources */,
+				157D369A1BF676E80010AA4B /* DetailsViewController.swift in Sources */,
+				150A16B41BFFAACC0022DE71 /* Website.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		15898B681BF564F0004597C6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				15898B691BF564F0004597C6 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		15898B711BF564F0004597C6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		15898B721BF564F0004597C6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		15898B741BF564F0004597C6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MyFavPlace/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Abdurrahman.MyFavPlace;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		15898B751BF564F0004597C6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MyFavPlace/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Abdurrahman.MyFavPlace;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		15898B5C1BF564F0004597C6 /* Build configuration list for PBXProject "MyFavPlace" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				15898B711BF564F0004597C6 /* Debug */,
+				15898B721BF564F0004597C6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		15898B731BF564F0004597C6 /* Build configuration list for PBXNativeTarget "MyFavPlace" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				15898B741BF564F0004597C6 /* Debug */,
+				15898B751BF564F0004597C6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 15898B591BF564F0004597C6 /* Project object */;
+}

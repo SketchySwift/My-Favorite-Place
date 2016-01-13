@@ -1,0 +1,444 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9531" systemVersion="15A284" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="SS5-sm-nY4">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="TMg-PY-UJ2">
+            <objects>
+                <viewController modalTransitionStyle="crossDissolve" id="SS5-sm-nY4" customClass="ViewController" customModule="MyFavPlace" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="eIq-oK-Yxs"/>
+                        <viewControllerLayoutGuide type="bottom" id="YZw-Fv-ozh"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="kGc-nu-ziQ">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" alpha="0.89999997615814209" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="BG.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="Uv7-Yg-0P7">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Washington DC" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZOx-48-OkV">
+                                <rect key="frame" x="22" y="20" width="333" height="78"/>
+                                <fontDescription key="fontDescription" name="AvenirNext-Regular" family="Avenir Next" pointSize="46"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Compass.png" translatesAutoresizingMaskIntoConstraints="NO" id="KO5-wG-mUP">
+                                <rect key="frame" x="20" y="106" width="34" height="34"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fbc-jH-Ufh">
+                                <rect key="frame" x="113" y="488" width="151" height="46"/>
+                                <color key="backgroundColor" red="0.20392156859999999" green="0.22352941179999999" blue="0.53725490200000003" alpha="0.86361336030000002" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="18"/>
+                                <state key="normal" title="MORE">
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="5"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <segue destination="7Xw-v7-YP1" kind="show" id="eoo-ZY-Vun"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="b2A-Cn-SSJ">
+                                <rect key="frame" x="113" y="542" width="151" height="46"/>
+                                <color key="backgroundColor" red="0.20392156859999999" green="0.22352941179999999" blue="0.53725490200000003" alpha="0.86361336030000002" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="18"/>
+                                <inset key="contentEdgeInsets" minX="-33" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                <state key="normal" title="Photos">
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="5"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <segue destination="V9x-cY-rXu" kind="show" id="FYG-0s-CzG"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dzq-Ln-gbw">
+                                <rect key="frame" x="113" y="596" width="151" height="46"/>
+                                <color key="backgroundColor" red="0.20392156859999999" green="0.22352941179999999" blue="0.53725490200000003" alpha="0.86361336030000002" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="18"/>
+                                <inset key="contentEdgeInsets" minX="-28" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                <state key="normal" title="Visit Website">
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="5"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <segue destination="cMS-1A-KBw" kind="show" id="NL5-cT-66y"/>
+                                </connections>
+                            </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Cam.png" translatesAutoresizingMaskIntoConstraints="NO" id="wGt-a7-MEk">
+                                <rect key="frame" x="210" y="550" width="29" height="30"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Link.png" translatesAutoresizingMaskIntoConstraints="NO" id="cxe-lQ-LJe">
+                                <rect key="frame" x="234" y="607" width="24" height="25"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="VIRGINIA, USA" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MId-UT-UmW">
+                                <rect key="frame" x="62" y="106" width="121" height="34"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="1Ik-mA-7dB" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1686.5" y="270.5"/>
+        </scene>
+        <!--Website-->
+        <scene sceneID="TyN-sj-tnv">
+            <objects>
+                <viewController modalTransitionStyle="crossDissolve" id="cMS-1A-KBw" customClass="Website" customModule="MyFavPlace" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="WQE-hK-0xU"/>
+                        <viewControllerLayoutGuide type="bottom" id="2ag-XG-cj6"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="hDR-7Y-rl3">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="BG.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="fZF-jA-1hT">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                            </imageView>
+                            <visualEffectView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="xFk-OG-M6j">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" ambiguous="YES" id="fac-IG-SAP">
+                                    <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                    <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                </view>
+                                <blurEffect style="dark"/>
+                            </visualEffectView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="d6L-gV-Spl">
+                                <rect key="frame" x="10" y="21" width="35" height="35"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="35" id="MN8-tk-LZ6"/>
+                                    <constraint firstAttribute="height" constant="35" id="lBt-MR-gg1"/>
+                                </constraints>
+                                <state key="normal" image="Close.png">
+                                    <color key="titleColor" red="0.62996566050000002" green="0.63105365160000004" blue="0.64765625000000004" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="back:" destination="cMS-1A-KBw" eventType="touchUpInside" id="p79-nd-bxS"/>
+                                </connections>
+                            </button>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="hpK-wV-e5z">
+                                <rect key="frame" x="0.0" y="71" width="375" height="596"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" red="0.25316761360000001" green="0.25316761360000001" blue="0.25316761360000001" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="hpK-wV-e5z" secondAttribute="trailing" id="0cZ-xJ-3oA"/>
+                            <constraint firstItem="d6L-gV-Spl" firstAttribute="leading" secondItem="hDR-7Y-rl3" secondAttribute="leading" constant="10" id="DbZ-ts-ugL"/>
+                            <constraint firstItem="2ag-XG-cj6" firstAttribute="top" secondItem="hpK-wV-e5z" secondAttribute="bottom" id="FEl-eX-3iw"/>
+                            <constraint firstItem="hpK-wV-e5z" firstAttribute="leading" secondItem="hDR-7Y-rl3" secondAttribute="leading" id="SVF-BB-A1x"/>
+                            <constraint firstItem="hpK-wV-e5z" firstAttribute="top" secondItem="d6L-gV-Spl" secondAttribute="bottom" constant="15" id="mi9-i8-gSQ"/>
+                            <constraint firstItem="d6L-gV-Spl" firstAttribute="top" secondItem="hDR-7Y-rl3" secondAttribute="top" constant="21" id="p0M-vg-mkz"/>
+                        </constraints>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                    <connections>
+                        <outlet property="container" destination="hpK-wV-e5z" id="DWV-49-tfD"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Cax-NY-YH8" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1272.5" y="264.5"/>
+        </scene>
+        <!--Photos View Controller-->
+        <scene sceneID="tyC-5o-Cjz">
+            <objects>
+                <viewController modalTransitionStyle="crossDissolve" id="V9x-cY-rXu" customClass="PhotosViewController" customModule="MyFavPlace" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="7I4-Ss-K5f"/>
+                        <viewControllerLayoutGuide type="bottom" id="Ozr-TB-Gqg"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="06L-Cj-hjb">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="BG.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="REF-Lb-Cpq">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                            </imageView>
+                            <visualEffectView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="l2V-Jt-4U6">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" ambiguous="YES" id="TpY-SS-frr">
+                                    <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                    <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                    <subviews>
+                                        <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Cam.png" translatesAutoresizingMaskIntoConstraints="NO" id="YsJ-HF-zLu">
+                                            <rect key="frame" x="165" y="17" width="45" height="41"/>
+                                        </imageView>
+                                    </subviews>
+                                </view>
+                                <blurEffect style="dark"/>
+                            </visualEffectView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fe5-Qh-Uca">
+                                <rect key="frame" x="20" y="20" width="35" height="35"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="35" id="MY3-uS-pkk"/>
+                                    <constraint firstAttribute="height" constant="35" id="wI5-hK-Tju"/>
+                                </constraints>
+                                <state key="normal" image="Close.png">
+                                    <color key="titleColor" red="0.62996566050000002" green="0.63105365160000004" blue="0.64765625000000004" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="back:" destination="cMS-1A-KBw" eventType="touchUpInside" id="d9j-l7-3Zy"/>
+                                    <action selector="closeBtn:" destination="V9x-cY-rXu" eventType="touchUpInside" id="Ftb-sO-Q3r"/>
+                                </connections>
+                            </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="United_States_Capitol_-_west_front.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="lls-et-sBv">
+                                <rect key="frame" x="23" y="73" width="148" height="76"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="hotels-near-washington-dc-top.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="srv-nD-9vL">
+                                <rect key="frame" x="204" y="73" width="148" height="66"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Washington_Monument_Panorama.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="VUa-pF-S0V">
+                                <rect key="frame" x="42" y="215" width="291" height="89"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Capitol Hill" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fQg-WI-4Qs">
+                                <rect key="frame" x="23" y="157" width="148" height="26"/>
+                                <fontDescription key="fontDescription" name="AvenirNext-Medium" family="Avenir Next" pointSize="18"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Thomas Jefferson Memorial" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="f5B-Wr-iL8">
+                                <rect key="frame" x="204" y="147" width="148" height="47"/>
+                                <fontDescription key="fontDescription" name="AvenirNext-Medium" family="Avenir Next" pointSize="17"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Washington Monument" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6tL-qk-edo">
+                                <rect key="frame" x="68" y="312" width="238" height="26"/>
+                                <fontDescription key="fontDescription" name="AvenirNext-Medium" family="Avenir Next" pointSize="18"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="White-House.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="sql-1M-Dns">
+                                <rect key="frame" x="20" y="362" width="148" height="103"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="dc_air_space_museum.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="Zgv-ze-dFD">
+                                <rect key="frame" x="207" y="362" width="148" height="85"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="White House" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Spy-Km-x3J">
+                                <rect key="frame" x="20" y="473" width="148" height="26"/>
+                                <fontDescription key="fontDescription" name="AvenirNext-Medium" family="Avenir Next" pointSize="18"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="National Air and Space Museum" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Bdx-aJ-1pM">
+                                <rect key="frame" x="207" y="455" width="148" height="47"/>
+                                <fontDescription key="fontDescription" name="AvenirNext-Medium" family="Avenir Next" pointSize="17"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="2660122229_ct7mn94-M.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="QMG-SV-Xdk">
+                                <rect key="frame" x="113" y="517" width="148" height="103"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Downtown" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8He-wm-qvK">
+                                <rect key="frame" x="113" y="628" width="148" height="26"/>
+                                <fontDescription key="fontDescription" name="AvenirNext-Medium" family="Avenir Next" pointSize="18"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="0.16273411195286192" green="0.16273411195286192" blue="0.16273411195286192" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="fe5-Qh-Uca" firstAttribute="top" secondItem="06L-Cj-hjb" secondAttribute="top" constant="20" id="nWg-ic-CAB"/>
+                            <constraint firstItem="fe5-Qh-Uca" firstAttribute="leading" secondItem="06L-Cj-hjb" secondAttribute="leading" constant="20" id="ryq-Kk-w5u"/>
+                        </constraints>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                    <connections>
+                        <outlet property="close" destination="fe5-Qh-Uca" id="fIU-CK-uzy"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="7gw-Rw-xpl" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-2121.5" y="1022.5"/>
+        </scene>
+        <!--Details View Controller-->
+        <scene sceneID="1bO-00-MeH">
+            <objects>
+                <viewController modalTransitionStyle="crossDissolve" id="7Xw-v7-YP1" customClass="DetailsViewController" customModule="MyFavPlace" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="mYg-1X-TrN"/>
+                        <viewControllerLayoutGuide type="bottom" id="7mb-9g-l99"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="373-ZA-N99">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="BG.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="ili-OD-zwt">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                            </imageView>
+                            <visualEffectView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="5ZI-pW-xrQ">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="2500"/>
+                                <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" ambiguous="YES" id="UkD-YY-ZhM">
+                                    <rect key="frame" x="0.0" y="0.0" width="375" height="2500"/>
+                                    <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                    <subviews>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Population" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="G66-5g-Zoz">
+                                            <rect key="frame" x="157" y="89" width="96" height="27"/>
+                                            <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="18"/>
+                                            <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                        <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="PP.png" translatesAutoresizingMaskIntoConstraints="NO" id="Obf-ZQ-BlG">
+                                            <rect key="frame" x="124" y="85" width="32" height="33"/>
+                                        </imageView>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="650K" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kRM-HD-imd">
+                                            <rect key="frame" x="103" y="126" width="169" height="32"/>
+                                            <fontDescription key="fontDescription" name="Avenir-Black" family="Avenir" pointSize="28"/>
+                                            <color key="textColor" red="0.78854955810000005" green="0.78854955810000005" blue="0.78854955810000005" alpha="1" colorSpace="calibratedRGB"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="History" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ajh-rk-rQ7">
+                                            <rect key="frame" x="164" y="483" width="89" height="33"/>
+                                            <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="17"/>
+                                            <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                        <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="History.png" translatesAutoresizingMaskIntoConstraints="NO" id="Kia-Iu-RO8">
+                                            <rect key="frame" x="124" y="483" width="32" height="33"/>
+                                        </imageView>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="About" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uIC-Ub-jMV">
+                                            <rect key="frame" x="126" y="24" width="123" height="36"/>
+                                            <fontDescription key="fontDescription" name="AvenirNext-Regular" family="Avenir Next" pointSize="24"/>
+                                            <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                            <nil key="highlightedColor"/>
+                                            <size key="shadowOffset" width="-1" height="1"/>
+                                        </label>
+                                        <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CWi-GU-j0d">
+                                            <rect key="frame" x="12" y="24" width="32" height="32"/>
+                                            <state key="normal" image="Close.png">
+                                                <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                            </state>
+                                            <connections>
+                                                <action selector="backButton:" destination="7Xw-v7-YP1" eventType="touchUpInside" id="vTo-OW-iSx"/>
+                                            </connections>
+                                        </button>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Things To Do" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Dwy-TK-8hC">
+                                            <rect key="frame" x="148" y="186" width="112" height="27"/>
+                                            <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="18"/>
+                                            <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                        <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="ThingsToDo.png" translatesAutoresizingMaskIntoConstraints="NO" id="4Xa-Bh-IjJ">
+                                            <rect key="frame" x="114" y="183" width="32" height="33"/>
+                                        </imageView>
+                                        <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pxK-Zj-7vc">
+                                            <rect key="frame" x="43" y="383" width="289" height="82"/>
+                                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                            <string key="text">Washington, DC, the U.S. capital, is a compact city on the Potomac River, bordering the states of Maryland and Virginia. It’s defined by imposing neoclassical monuments and buildings – including the iconic ones that house the federal government’s 3 branches: the Capitol, White House and Supreme Court – but also its museums and performing-arts venues such as the Kennedy Center.
+</string>
+                                            <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                            <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                        </textView>
+                                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Line.png" translatesAutoresizingMaskIntoConstraints="NO" id="TTJ-cl-5ZJ">
+                                            <rect key="frame" x="41" y="475" width="293" height="1"/>
+                                        </imageView>
+                                        <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Description ICON.png" translatesAutoresizingMaskIntoConstraints="NO" id="hvc-S1-ndp">
+                                            <rect key="frame" x="114" y="341" width="36" height="34"/>
+                                        </imageView>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Description" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="STV-2a-rB1">
+                                            <rect key="frame" x="151" y="344" width="112" height="27"/>
+                                            <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="18"/>
+                                            <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                        <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ehA-Fh-OQS">
+                                            <rect key="frame" x="34" y="524" width="307" height="134"/>
+                                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                            <mutableString key="text">Founded on July 16, 1790, Washington DC is unique among American cities because it was established by the Constitution of the United States to serve as the nation’s capital. From its beginning, it has been embroiled in political maneuvering, sectional conflicts and issues of race, national identity, compromise and, of course, power.
+
+The choice of Washington’s site along the Potomac and Anacostia Rivers resulted from a compromise between Alexander Hamilton and northern states who wanted the new federal government to assume Revolutionary War debts, and Thomas Jefferson and southern states who wanted the capital placed in a location friendly to slave-holding agricultural interests.
+
+George Washington, the first president and namesake of the city, chose the site and appointed three commissioners to help prepare for the arrival of the new government in 1800. Pierre Charles L’Enfant designed the city as a bold new capital with sweeping boulevards and ceremonial spaces reminiscent of Paris in his native France. Benjamin Banneker, a self-taught African American mathematical genius, provided the astronomical calculations for surveying and laying out the city. The full development of Washington as a monumental city, however, did not come until a hundred years later when the McMillan Commission updated its plan to establish the National Mall and monuments that most visitors to Washington now know.
+
+During the War of 1812, most of the city was burned to the ground. British forces invaded the city and burned public and government buildings, including the White House, in response to American forces invading York, now known as Toronto, and burning most of it to the ground. However, the British left the residential areas untouched and also spared the home of the Commandant of the Marines, located on Marine Barracks, as a sign of respect. It is now the oldest government building in continuous use in the nation's capital. The Patent Office and the Post Office were also spared because of Dr. William Thornton, Superintendent of Patents, pleading with British officers that the knowledge lost therein would be a disservice to mankind.
+
+As a southern city, Washington has always had a significant African American population. Before the Civil War, the city was home to a growing number of free blacks who worked as skilled craftsmen, hack drivers, businessmen and laborers. It also included enslaved African Americans and was the site of slave auctions before they were outlawed in the city in 1850. Slaves owned in Washington were emancipated on April 16, 1862, nine months before Lincoln’s Emancipation Proclamation of Jan. 1, 1863. Washington remained home to a large African American population who created vibrant communities and championed civil rights despite racial segregation and prejudice. Duke Ellington was born and raised in Washington’s Shaw neighborhood and played in his first band here.
+
+Washington, DC was envisioned by its founders as a commercial center as well as the seat of government. The location on the Potomac River was chosen, in part, because it already included two existing port towns of Georgetown, Md., and Alexandria, Va., which served as regional shipping centers for tobacco and wheat. When Alexandria returned to Virginia in 1846, residents argued that inclusion within the Federal District of Columbia hurt business and the city of Washington would never need that much room to grow.
+
+But after the Civil War, Washington did grow, eventually absorbing Georgetown and the surrounding farms and rural areas beyond L’Enfant’s original plans for the city. The initial boundary of Washington City was Florida Avenue, originally called Boundary Street. The first neighborhoods were those that grew up around the Capitol (Capitol Hill), the Center Market (Downtown), and the White House (Lafayette Square). The expansion of streetcar lines in the mid-19th century spurred creation of new suburbs. Two early suburbs, LeDroit Park and Anacostia, both began as developments that excluded African Americans and later became predominantly African American communities.
+
+Wars and national events have always resulted in the growth of the federal government and increases in population. During the Civil War, Washington was an armed encampment with soldiers bivouacked everywhere and public buildings serving as hospitals. Bread for soldiers was baked in ovens located on the White House grounds. During World War II, "government girls" were recruited to fill office jobs to replace men who had gone to war.
+
+Washington is also a cosmopolitan city. While it has always had foreign delegations from the countries of the world, it also boasts an increasingly diverse ethnic population. A growing Latino population represents every Central and South American country with a particularly large community of Salvadorans. A large Ethiopian population has resulted from the political turmoil there. New ethnic groups have brought new restaurants, as well as new residents. While DC lost residents to surrounding suburbs in the 1990s, new housing and urban revitalization is now attracting people back to the city for a downtown renaissance of housing, offices, entertainment and nightlife.
+
+As the capital of the world’s most powerful democracy, it is ironic that residents of Washington lack full self-government and limited self-government was only restored in 1974 after nearly 100 years with an appointed commissioner system. Representation in Congress is limited to a non-voting delegate to the House of Representatives and a shadow senator. 1964 was the first Presidential election in which Washington residents were able to vote.
+
+After more than 200 years as the nation’s capital, Washington is brimming with a unique history of its own. It has developed as a complex and layered city with multiple personalities. As home to the federal government, it has attracted a diverse mix of government workers, members of Congress from every state, foreign emissaries, lobbyists, petitioners and protestors. While elected and appointed officials come and go giving the city its reputation as a transient community, many of the city’s residents have called Washington home for multiple generations. Their stories give Washington its distinctive character as both a national and local city.</mutableString>
+                                            <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                            <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                        </textView>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="- White House" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="esg-6d-vd5">
+                                            <rect key="frame" x="104" y="224" width="149" height="25"/>
+                                            <fontDescription key="fontDescription" name="AvenirNext-Bold" family="Avenir Next" pointSize="17"/>
+                                            <color key="textColor" red="0.78854955808080807" green="0.78854955808080807" blue="0.78854955808080807" alpha="1" colorSpace="calibratedRGB"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="- Capitol Hill" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nyS-81-Eha">
+                                            <rect key="frame" x="104" y="257" width="149" height="25"/>
+                                            <fontDescription key="fontDescription" name="AvenirNext-Bold" family="Avenir Next" pointSize="17"/>
+                                            <color key="textColor" red="0.78854955810000005" green="0.78854955810000005" blue="0.78854955810000005" alpha="1" colorSpace="calibratedRGB"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="- Lincoln Memorial" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WPj-4O-DEe">
+                                            <rect key="frame" x="104" y="290" width="156" height="25"/>
+                                            <fontDescription key="fontDescription" name="AvenirNext-Bold" family="Avenir Next" pointSize="17"/>
+                                            <color key="textColor" red="0.78854955810000005" green="0.78854955810000005" blue="0.78854955810000005" alpha="1" colorSpace="calibratedRGB"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                    </subviews>
+                                </view>
+                                <blurEffect style="dark"/>
+                            </visualEffectView>
+                        </subviews>
+                    </view>
+                    <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+                    <size key="freeformSize" width="375" height="667"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="YyJ-mW-ROv" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-2121.5" y="270.5"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="2660122229_ct7mn94-M.jpg" width="600" height="450"/>
+        <image name="BG.jpg" width="1080" height="1920"/>
+        <image name="Cam.png" width="98" height="78"/>
+        <image name="Close.png" width="208" height="208"/>
+        <image name="Compass.png" width="54" height="54"/>
+        <image name="Description ICON.png" width="94" height="120"/>
+        <image name="History.png" width="70" height="64"/>
+        <image name="Line.png" width="255" height="1"/>
+        <image name="Link.png" width="110" height="116"/>
+        <image name="PP.png" width="82" height="102"/>
+        <image name="ThingsToDo.png" width="84" height="142"/>
+        <image name="United_States_Capitol_-_west_front.jpg" width="3000" height="1556"/>
+        <image name="Washington_Monument_Panorama.jpg" width="3960" height="1490"/>
+        <image name="White-House.jpg" width="640" height="443"/>
+        <image name="dc_air_space_museum.jpg" width="525" height="294"/>
+        <image name="hotels-near-washington-dc-top.jpg" width="950" height="404"/>
+    </resources>
+</document>
